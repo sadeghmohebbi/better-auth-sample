@@ -1,13 +1,11 @@
 volumes:
   baseapp:
 services:
-  mvc:
+  better-auth-sample:
     build:
       context: .
       dockerfile: ./Dockerfile
     restart: always
-    env_file:
-      - .env
     volumes:
       - baseapp:/tmp/baseapp
     ports:
