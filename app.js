@@ -5,7 +5,7 @@ const { oidcProvider, jwt } = require("better-auth/plugins");
 const { toNodeHandler } = require("better-auth/node");
 
 // 1. Initialize Database
-const db = new Database("database.sqlite");
+const db = new Database("/tmp/baseapp/database.sqlite");
 
 // 2. Configure Better Auth with OIDC Provider
 const auth = betterAuth({

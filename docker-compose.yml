@@ -1,0 +1,14 @@
+volumes:
+  baseapp:
+services:
+  mvc:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - baseapp:/tmp/baseapp
+    ports:
+      - 127.0.0.1:3000:3000
