@@ -1,0 +1,25 @@
+{
+  "name": "better-auth-sample",
+  "version": "1.0.0",
+  "description": "This is my lab to work with better-auth node package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadeghmohebbi/better-auth-sample.git"
+  },
+  "author": "Sadegh Mohebbi <mohebbi.sadegh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadeghmohebbi/better-auth-sample/issues"
+  },
+  "homepage": "https://github.com/sadeghmohebbi/better-auth-sample#readme",
+  "dependencies": {
+    "better-auth": "^1.4.7",
+    "better-sqlite3": "^12.5.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
